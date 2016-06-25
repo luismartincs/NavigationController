@@ -21,6 +21,7 @@
 		A08359CF1D1E06AA00AC17F0 /* dest03.png in Resources */ = {isa = PBXBuildFile; fileRef = A08359CA1D1E06AA00AC17F0 /* dest03.png */; };
 		A08359D01D1E06AA00AC17F0 /* dest04.png in Resources */ = {isa = PBXBuildFile; fileRef = A08359CB1D1E06AA00AC17F0 /* dest04.png */; };
 		A08359D11D1E06AA00AC17F0 /* dest05.png in Resources */ = {isa = PBXBuildFile; fileRef = A08359CC1D1E06AA00AC17F0 /* dest05.png */; };
+		A08359D41D1E0C7800AC17F0 /* DestinationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A08359D31D1E0C7800AC17F0 /* DestinationDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		A08359CA1D1E06AA00AC17F0 /* dest03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dest03.png; sourceTree = "<group>"; };
 		A08359CB1D1E06AA00AC17F0 /* dest04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dest04.png; sourceTree = "<group>"; };
 		A08359CC1D1E06AA00AC17F0 /* dest05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dest05.png; sourceTree = "<group>"; };
+		A08359D21D1E0C7800AC17F0 /* DestinationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationDetails.h; sourceTree = "<group>"; };
+		A08359D31D1E0C7800AC17F0 /* DestinationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 			children = (
 				A08359A61D1DF92F00AC17F0 /* Home.h */,
 				A08359A71D1DF92F00AC17F0 /* Home.m */,
+				A08359D21D1E0C7800AC17F0 /* DestinationDetails.h */,
+				A08359D31D1E0C7800AC17F0 /* DestinationDetails.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 				A08359A51D1DF92F00AC17F0 /* AppDelegate.m in Sources */,
 				A08359C01D1DFCD600AC17F0 /* cellHome.m in Sources */,
 				A08359A21D1DF92F00AC17F0 /* main.m in Sources */,
+				A08359D41D1E0C7800AC17F0 /* DestinationDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

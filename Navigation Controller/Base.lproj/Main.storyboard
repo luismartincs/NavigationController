@@ -26,10 +26,53 @@
                         </subviews>
                     </view>
                     <navigationItem key="navigationItem" id="SGg-3K-Ind"/>
+                    <connections>
+                        <segue destination="Qd3-9n-9Lk" kind="push" identifier="DestinationDetails" id="pUf-MW-LE3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="544" y="308"/>
+        </scene>
+        <!--Destination Details-->
+        <scene sceneID="BAf-xg-Wko">
+            <objects>
+                <viewController storyboardIdentifier="DestinationDetails" id="Qd3-9n-9Lk" customClass="DestinationDetails" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v4Q-cE-QuY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dest01.png" id="oqT-Az-HQN">
+                                <rect key="frame" x="0.0" y="64" width="320" height="219"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UZZ-td-V8t">
+                                <rect key="frame" x="20" y="348" width="280" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4Lk-Pk-ttv">
+                                <rect key="frame" x="20" y="311" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cXM-By-SQx"/>
+                    <connections>
+                        <outlet property="imgDestination" destination="oqT-Az-HQN" id="gMQ-rm-jDH"/>
+                        <outlet property="lblDescription" destination="UZZ-td-V8t" id="ulz-dx-jhu"/>
+                        <outlet property="lblTitle" destination="4Lk-Pk-ttv" id="YuX-bA-r5y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vlD-Xq-nPl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="308"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TKx-dS-mem">
@@ -48,4 +91,7 @@
             <point key="canvasLocation" x="66" y="308"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="dest01.png" width="1000" height="512"/>
+    </resources>
 </document>
